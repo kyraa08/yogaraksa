@@ -1,0 +1,97 @@
+* {
+  background-color: #0b1220;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 30px;
+  box-sizing: none;
+}
+
+.judul-web {
+  color: aliceblue;
+  font-size: large;
+  position: relative;
+  left: 40rem;
+}
+
+.pertemuan1 {
+  color: aliceblue;
+  position: fixed;
+  padding-top: 30px;
+}
+
+.pertemuan1 {
+  background: transparent;
+  color: rgb(250, 235, 215);
+  margin-left: auto;
+  border: 1px solid rgba(124, 92, 255, 0.18);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: none;
+  text-decoration: none;
+}
+
+.pertemuan1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(124, 92, 255, 0.08);
+  background: linear-gradient(
+    90deg,
+    rgba(124, 92, 255, 0.06),
+    rgba(0, 212, 255, 0.03)
+  );
+  text-decoration: none;
+}
+/*ini  menu pertemuan 2*/
+
+.tugas2 {
+  position: relative;
+  top: 3rem;
+  right: 16px;
+}
+
+.pertemuan2 {
+  color: aliceblue;
+  position: fixed;
+  padding-top: 30px;
+}
+
+.pertemuan2 {
+  background: transparent;
+  color: rgb(250, 235, 215);
+  margin-left: auto;
+  border: 1px solid rgba(124, 92, 255, 0.18);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: none;
+  text-decoration: none;
+}
+
+.pertemuan2:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(124, 92, 255, 0.08);
+  background: linear-gradient(
+    90deg,
+    rgba(124, 92, 255, 0.06),
+    rgba(0, 212, 255, 0.03)
+  );
+  text-decoration: none;
+}

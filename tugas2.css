@@ -1,0 +1,20 @@
+:root {
+  background-color: #0b1220;
+}
+
+.judul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: antiquewhite;
+  position: auto;
+  padding: 1rem;
+  font-size: xx-large;
+}
+
+.isi-rangkuman {
+  position: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: antiquewhite;
+  font-weight: 300;
+  font-size: large;
+  padding: 1rem;
+}

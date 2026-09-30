@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Profil Yogaraksa</title>
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link ke file CSS terpisah -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--profil item-->
+    <div class="container">
+      <section class="profile-card" aria-label="Profil Yogaraksa">
+        <div class="profile-left">
+          <div class="avatar" aria-hidden="true">
+            <img
+              class="avatar-img"
+              src="yogaraksa.img.jpg"
+              alt="Foto Yogaraksa"
+              onerror="
+                this.style.display = 'none';
+                this.nextElementSibling.style.display = 'flex';
+              "
+            />
+            <div class="avatar-fallback" style="display: none">Y</div>
+          </div>
+
+          <div class="name-block">
+            <div class="brand">YOGARAKSA ACALAPATI P.G.</div>
+            <div class="fullname">Yogaraksa Acalapati Putra Galih</div>
+
+            <div class="meta-row" aria-hidden="true">
+              <div class="meta-item">Head Barista</div>
+              <div class="meta-item">Videographer</div>
+              <button
+                class="cta"
+                onclick="
+                  document
+                    .getElementById('about')
+                    .scrollIntoView({ behavior: 'smooth' })
+                "
+              >
+                <a href="Page2.html">Tugas Saya</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-right">
+          <div class="roles" aria-hidden="true">
+            <span class="role-pill">Athlete</span>
+            <span class="role-pill">Barista</span>
+            <span class="role-pill">Videographer</span>
+            <span class="role-pill">Student</span>
+          </div>
+
+          <div class="headline">Yogaraksa Acalapati Putra Galih</div>
+
+          <div id="about" class="about">
+            Saya seorang atlet yang saat ini bekerja sebagai head barista dan
+            sesekali menjadi videographer. Saat ini saya sedang menempuh studi
+            di Universitas Budi Luhur, Jakarta Selatan.
+          </div>
+
+          <div class="info-row" aria-hidden="true">
+            <div class="info-badge">📍 Jakarta Selatan</div>
+            <div class="info-badge">🎓 Universitas Budi Luhur</div>
+            <div class="info-badge">📸 Portfolio</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".avatar").forEach(function (wrapper) {
+          var img = wrapper.querySelector(".avatar-img");
+          var fallback = wrapper.querySelector(".avatar-fallback");
+          if (img && fallback) {
+            if (!img.complete || img.naturalWidth === 0) {
+              img.style.display = "none";
+              fallback.style.display = "flex";
+            }
+          }
+        });
+      });
+    </script>
+    <!--menu bar-->
+  </body>
+</html>
