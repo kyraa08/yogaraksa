@@ -95,3 +95,78 @@ body {
   );
   text-decoration: none;
 }
+
+.tugas3 {
+  position: relative;
+  top: 15rem;
+  right: 16px;
+}
+
+.pertemuan3 {
+  color: aliceblue;
+  position: fixed;
+  padding-top: 30px;
+}
+
+.pertemuan3 {
+  background: transparent;
+  color: rgb(250, 235, 215);
+  margin-left: auto;
+  border: 1px solid rgba(124, 92, 255, 0.18);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: none;
+  text-decoration: none;
+}
+
+.pertemuan3:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(124, 92, 255, 0.08);
+  background: linear-gradient(
+    90deg,
+    rgba(124, 92, 255, 0.06),
+    rgba(0, 212, 255, 0.03)
+  );
+  text-decoration: none;
+}
+
+.tugas4 {
+  position: relative;
+  top: 27rem;
+  right: 16px;
+}
+
+.pertemuan4 {
+  color: aliceblue;
+  position: fixed;
+  padding-top: 30px;
+}
+
+.pertemuan4 {
+  background: transparent;
+  color: rgb(250, 235, 215);
+  margin-left: auto;
+  border: 1px solid rgba(124, 92, 255, 0.18);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: none;
+  text-decoration: none;
+}
+
+.pertemuan4:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(124, 92, 255, 0.08);
+  background: linear-gradient(
+    90deg,
+    rgba(124, 92, 255, 0.06),
+    rgba(0, 212, 255, 0.03)
+  );
+  text-decoration: none;
+}
+
